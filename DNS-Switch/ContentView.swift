@@ -3,7 +3,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var isDnsOn = false
     let backendIP = "77.90.13.115"
-    let port = "5564"
+    let port = "53"
     let authKey = "SUPER_SECRET_KEY"
 
     var body: some View {
